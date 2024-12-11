@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.matrix-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 60px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}

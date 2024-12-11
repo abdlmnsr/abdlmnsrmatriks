@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matriks 2x2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Kalkulator Matriks Ordo 2x2
+        Abdul Muhamad Nasir - 242302007 </h1>
+    <div class="matrix-container">
+        <div>
+            <h2>Matriks 1</h2>
+            <input type="number" id="m1-00" placeholder="0"> <input type="number" id="m1-01" placeholder="0"><br>
+            <input type="number" id="m1-10" placeholder="0"> <input type="number" id="m1-11" placeholder="0">
+        </div>
+        <div>
+            <h2>Matriks 2</h2>
+            <input type="number" id="m2-00" placeholder="0"> <input type="number" id="m2-01" placeholder="0"><br>
+            <input type="number" id="m2-10" placeholder="0"> <input type="number" id="m2-11" placeholder="0">
+        </div>
+    </div>
+    <button onclick="calculate()">Hitung Penjumlahan</button>
+    <button onclick="calculateSubtraction()">Hitung Pengurangan</button>
+    <button onclick="calculateMultiplication()">Hitung Perkalian</button>
+    <h2>Hasil</h2>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
